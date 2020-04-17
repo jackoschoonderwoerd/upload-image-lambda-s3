@@ -1,8 +1,0 @@
-angular 9 HTTPClientModule: 
-
-ERROR in node_modules/@angular/common/http/http.d.ts:2801:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
-
-This likely means that the library (@angular/common/http) which declares HttpClientModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
-
-Setting "enableIvy": false in tsconfig.json does fix that particular error.
-Isn't Ivy supposed to be usable already?
