@@ -1,0 +1,12 @@
+<form #uploadForm>
+  <input
+    type="file"
+    (change)="uploadFile($event)"
+    #fileInput>
+</form>
+
+<div class="img-container" *ngIf="imageSrc">
+  <img [src]="imageSrc" alt="no cigar">
+</div>
+
+
